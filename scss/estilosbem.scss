@@ -1,0 +1,133 @@
+/*BLOQUE BEM NAVEGADOR*/
+
+.navegador{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    
+    &__lista{
+        list-style-type: none;
+        display: flex;
+        background-color: rgb(29, 29, 29);
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    &__item{
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 10px;
+    
+    }
+    
+    &__link{
+        color: white;
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: rgba(255, 255, 255, 0);
+        font-size: 16px;
+        font-weight: 700;
+        text-decoration: none;
+        text-transform: uppercase; 
+    }
+    
+    &__link:hover{
+        color: rgb(29, 29, 29);
+        background-color: white;
+    }
+}
+
+
+
+/*BLOQUE BEM CARTA*/
+
+.carta{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__titulo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        width: 40%;
+        height: 18%;
+        margin: 10px;
+        padding: 7px;
+        font-size: 30px;
+        font-style: italic;
+        font-weight: 700;
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        text-align: center;
+        text-transform: uppercase;
+        background-color: rgb(29, 29, 29);
+        box-shadow: 0 0 10px rgb(29, 29, 29);
+    }
+    
+    &__parrafo{
+        text-align: center;
+        width: 60%;
+    }
+    
+    &__imagen{
+        background-color:rgba(10, 72, 204, 0.356);
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+        border: solid   2px black;
+        transition: 0.5s;
+    }
+    
+    &__imagen:hover{
+        transform: translate(20px,20px);
+    }
+}
+
+
+
+/*BLOQUE BEM WHATSAPP*/
+
+.whatsapp{
+    position: fixed; 
+    right:25px; /*Margen derecho*/
+    bottom:40px; /*Margen abajo*/
+    z-index:999;
+
+    &:hover{
+        opacity: 0.7;
+    }
+    
+    &__link{
+        background-color: rgba(255, 255, 255, 0) !important ;
+    }
+}
+
+
+
+/*BLOQUE BEM TABLA*/
+
+.tabla{
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    background-color:rgba(29, 29, 29, 0.582);
+
+    &__titulos{
+        color: white;
+        padding: 3px;
+        font-size: 18px;
+        font-weight: 700;
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
+
+
