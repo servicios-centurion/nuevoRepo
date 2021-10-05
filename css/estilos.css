@@ -247,11 +247,6 @@ form{
         display: unset;
     }
 
-    .navegador{
-        justify-content: start;
-        padding-left: 15px;
-    }
-
     .navegador__lista{
         display: unset;
     }
@@ -279,8 +274,8 @@ form{
     }
 
     .videoMobile{
-        height: 200px;
-        width: 400px;
+        height: 180px;
+        width: 350px;
     }
 }
 

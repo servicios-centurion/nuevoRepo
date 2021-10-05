@@ -1,11 +1,11 @@
 /*BLOQUE BEM NAVEGADOR*/
 
 .navegador{
-    margin-top: 30px;
-    margin-bottom: 10px;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
+    height: min-content;
+    margin-top: 55px;
+    box-shadow: 0 0 10px rgb(29, 29, 29);
+    padding: 0%;
+    
     
     &__lista{
         list-style-type: none;
